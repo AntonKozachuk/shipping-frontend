@@ -843,6 +843,7 @@ textarea:focus::-webkit-input-placeholder {
 
 .header-area .logo img {
 	max-width: 180px;
+	height: 90px;
 }
 
 .sub-title {
@@ -4156,4 +4157,30 @@ a.reply-btn {
 		-webkit-transform: translateX(-1px) rotate(0);
 		transform: translateX(-1px) rotate(0);
 	}
+}
+
+/* Add this to your main CSS file */
+
+/* Initial header styles */
+.header-area {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+  width: 100%;
+}
+
+/* Sticky header styles */
+.header-area.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff; /* Adjust as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+/* Example of transition */
+.sticky .navigation {
+  transition: all 0.3s ease-in-out;
 }
