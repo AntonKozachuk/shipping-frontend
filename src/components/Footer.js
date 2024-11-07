@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <a href="#top" class="go-top"><i class="las la-angle-up"></i></a>
+      <a href="#top" className="go-top"><i className="las la-angle-up"></i></a>
     </footer>
   );
 };

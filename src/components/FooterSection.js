@@ -1,51 +1,79 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const FooterSection = () => {
+  const { t } = useTranslation();
+
   return (
-    <footer className="footer-area wow fadeIn" data-wow-delay=".2s">
+    <footer
+      id="contacts"
+      className="footer-area wow fadeIn"
+      data-wow-delay=".2s"
+    >
       <div className="container">
         <div className="footer-up">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="logo">
-                <img src="assets/img/logo-white.png" alt="expoint-logo" />
+                <img
+                  src="/shipping-frontend/assets/img/logo-white.png"
+                  alt="expoint-logo"
+                />
               </div>
-              <p>We are the Top Courier Service Provider and Logistics Solutions. We’re services around over the worldwide. We never give up on the challenges.</p>
+              <p>{t('home.services.text')}</p>
               <div className="social-area">
-                <a href="#"><i className="lab la-facebook-f"></i></a>
-                <a href="#"><i className="lab la-instagram"></i></a>
-                <a href="#"><i className="lab la-twitter"></i></a>
-                <a href="#"><i className="la la-skype"></i></a>
+                <a href="#">
+                  <i className="lab la-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i className="lab la-instagram"></i>
+                </a>
+                <a href="#">
+                  <i className="lab la-twitter"></i>
+                </a>
+                <a href="#">
+                  <i className="la la-skype"></i>
+                </a>
               </div>
             </div>
             <div className="col-lg-2 offset-lg-1 col-md-6 col-sm-12">
-              <h5>Explore</h5>
+              <h5>{t('home.menu.menu')}</h5>
               <ul>
-                <li><a href="#">About Company</a></li>
-                <li><a href="#">Latest News</a></li>
-                <li><a href="#">Get a Quote</a></li>
-                <li><a href="#">Pricing Guide</a></li>
-                <li><a href="#">Helpful FAQ</a></li>
-                <li><a href="#">Sitemap</a></li>
+                <li>
+                  <a href="#">{t('home.menu.home')}</a>
+                  <a href="#service-1">{t('home.menu.services')}</a>
+                  <a href="#about">{t('home.menu.about_us')}</a>
+                  <a href="#achiv">{t('home.menu.achievements')}</a>
+                  <a href="#contacts">{t('home.menu.contact')}</a>
+                </li>
               </ul>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
-              <h5>Services</h5>
+              <h5>{t('home.services.services')}</h5>
               <ul>
-                <li><a href="#"><span>-</span> Express Courier</a></li>
-                <li><a href="#"><span>-</span> Pallet Courier</a></li>
-                <li><a href="#"><span>-</span> Air Freight</a></li>
-                <li><a href="#"><span>-</span> Ocean Freight</a></li>
-                <li><a href="#"><span>-</span> Warehousing</a></li>
+                <li>
+                  <a href="#logistic-1">
+                    <span>-</span> {t('home.services.avia')}
+                  </a>
+                  <a href="#logistic-1">
+                    <span>-</span> {t('home.services.sea')}
+                  </a>
+                  <a href="#logistic-1">
+                    <span>-</span> {t('home.services.car')}
+                  </a>
+                  <a href="#logistic-1">
+                    <span>-</span> {t('home.services.train')}
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="subscribe-form">
-                <h5>Newsletter</h5>
-                <p>Sign Up now for latest news update</p>
+                <h5>{t('home.services.news')}</h5>
+                <p>{t('home.services.newsletter')}</p>
                 <form action="http://capricorn-theme.net/html/expo/index.html">
-                  <input type="email" placeholder="Your email" />
-                  <button className="main-btn">Subscribe</button>
+                  <input type="email" placeholder={t('home.services.email')} />
+                  <button className="main-btn">{t('home.services.btn')}</button>
                 </form>
               </div>
             </div>

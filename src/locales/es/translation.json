@@ -1,0 +1,183 @@
+{
+  "home": {
+    "about": {
+      "about": "ACERCA DE NOSOTROS",
+      "title": "VAN WANROOY LOGISTIC",
+      "desc": "VAN WANROOY LOGISTIC es un proveedor de servicios logísticos y portuarios con una red internacional. Durante más de 65 años, nuestro sello distintivo ha sido la logística impulsada por la pasión y el pragmatismo. La innovación siempre ha sido el motor de nuestro desarrollo. Creamos logística para nuestros clientes en la industria y retail, aplicando nuestra experiencia para el desarrollo e implementación de soluciones innovadoras, de alta tecnología y orientadas al futuro. También estamos dando pasos progresivos para ayudar a nuestros clientes a maximizar los beneficios de la digitalización, la automatización y la globalización.",
+      "p1": "Hoy, el Grupo VAN WANROOY está presente en todos los mercados en crecimiento del mundo con casi 100 representaciones y oficinas en Europa, América, África y Asia. Nuestras subdivisiones AUTOMÓVIL y CONTENEDORES son líderes del mercado en Europa. La subdivisión de AVIA es uno de los proveedores líderes en el mundo.",
+      "p2": "Más de 11.000 empleados de WANROOY asumen la responsabilidad de la logística fluida de productos de alta calidad todos los días. Gracias a una alta motivación y devoción al deber, logran los mejores resultados para nuestros clientes al respaldar su éxito en los mercados.",
+      "p3": "Estamos orgullosos de nuestras relaciones de asociación a largo plazo, así como de nuestros nuevos proyectos emblemáticos. Ningún punto de destino está demasiado lejos, ninguna carga es demasiado pesada, ninguna tarea es demasiado difícil. Facilitamos la logística. Y hacemos más que solo trabajar: en WANROOY siempre damos un paso más y desarrollamos soluciones logísticas innovadoras donde se necesitan.",
+      "p4": "VAN WANROOY LOGISTICS aspira a ser climáticamente neutral para 2030. De hecho, somos el primer proveedor holandés de servicios logísticos con un objetivo científico de proteger el clima. Como empleador, apoyamos un enfoque individual, valoramos la contribución de nuestros empleados y miramos firmemente hacia el futuro. Incluidas todas las empresas asociadas.",
+      "p5": "VAN WANROOY LOGISTICS proporciona actualmente alrededor de 20.000 puestos de trabajo en todo el mundo. El Grupo WANROOY tiene su sede en Oosterhout, Países Bajos."
+    },
+    "achievements": {
+      "titleOne": "WAN ROOY TRANS",
+      "one": "Organización del servicio de almacén en ciudades europeas clave; Establecimiento de un depósito aduanero sobre la base del complejo de depósitos existente; Desarrollo de entrega de pallets y cajas por camiones de 0.5 a 10 toneladas; Manejo de la carga antes de la entrega a un punto de venta (pegado, sobreembalaje, ensamblaje de los juegos, formación de paquetes promocionales y paletización); Servicios de intermediación aduanera; Y seguimos desarrollándonos, ampliando la gama de nuestros servicios y aumentando nuestra influencia en el mercado logístico en Europa.",
+
+      "titleTwo": "RESPONSABILIDAD COMPLETA DEL MATERIAL",
+      "two": "Asumimos toda la responsabilidad del transporte de su carga y su almacenamiento en el almacén, asegurando adicionalmente su mercancía.",
+
+      "titleThree": "CUMPLIMIENTO TOTAL DE TODAS LAS NORMAS Y REGLAS",
+      "three": "Al poseer certificados, realizamos actividades en las normas ISO 9001 y Sedex y, además, somos miembros de la Asociación de Transportistas Internacionales de Automóviles (AsMAP).",
+
+      "titleFour": "TRABAJAR CON CUALQUIER VOLUMEN Y PESO DE CARGA",
+      "four": "Nuestra flota de vehículos posee todos los recursos necesarios para transportar cargas de varios tonelajes: desde 1 kg hasta 22 toneladas.",
+
+      "titleFive": "CONTROL EN LÍNEA Y SEGURIDAD 24/7",
+      "five": "Seguimiento en línea del movimiento de mercancías en una ruta predeterminada, control del modo t0, prevención de la apertura del semirremolque."
+    },
+    "advantages": {
+      "title": "VENTAJAS",
+
+      "oneT": "Esquema de funcionamiento",
+      "one": "Esquema de transporte de carga internacional que funciona bien.",
+
+      "twoT": "Selección individual de la ruta de transporte teniendo en cuenta todos los deseos del cliente.",
+      "two": "Cálculo preciso de la ruta más eficiente y, por tanto, más barata, teniendo en cuenta la geografía de un país.",
+
+      "threeT": "Cumplimiento de plazos",
+      "three": "Disponibilidad de socios confiables en otros países, excelente conocimiento de las normas legales de cualquier estado, así como las condiciones para tratar con las formalidades aduaneras.",
+
+      "fourT": "Nivel europeo de profesionalismo",
+      "four": "Nivel europeo de profesionalismo: todos los especialistas están altamente cualificados y tienen una amplia experiencia laboral.",
+
+      "formTitle": "Entrega de pedido ahora mismo"
+    },
+    "comment": {
+      "comment1": "Al mantener una cooperación, la empresa promueve la interacción entre los clientes, las instituciones académicas y de investigación, los socios de la industria y los expertos en logística dentro de las unidades de negocio de WRT.",
+      "name1": "Paul van Amelsfort",
+
+      "comment2": "Las vacantes en WRT son tan diversas como la composición de nuestros equipos y los equipos de nuestros socios en diferentes países del mundo. Más de 570.000 empleados en más de 220 países y regiones, cuya misión es unir a las personas y mejorar sus vidas.",
+      "name2": "Ilse Vreeman",
+
+      "comment3": "El plan WRT supone una reducción significativa de las emisiones de CO2 para 2030. La empresa se convirtió en el primer proveedor de servicios logísticos, cuyos objetivos fueron confirmados científicamente por la reconocida Science Based Targets Initiative (SBTi).",
+      "name3": "Pieter de Waal Malefijt"
+    },
+    "menu": {
+      "menu": "Menu",
+      "home": "Inicio",
+      "services": "Servicios",
+      "about_us": "De nosotros",
+      "achievements": "Logros",
+      "contact": "Contactos"
+    },
+    "process": {
+      "title": "Cómo trabajamos",
+      "sub_title": "Nuestro proceso",
+
+      "one": "Elija su tipo de ruta",
+      "one_title": "Registro",
+
+      "two": "Elija su tipo de ruta",
+      "two_title": "Ruta",
+
+      "three": "Controle sus entregas en línea",
+      "three_title": "Control de entregas",
+
+      "four": "Obtener beneficios de acuerdo con el contrato",
+      "four_title": "Beneficio"
+    },
+    "service": {
+      "title": "Ofrecemos servicios de varias categorías",
+
+      "pallet": "Entrega en palets",
+      "palletShort": "La entrega en palés es barata ...",
+      "palletDesc": "La entrega en palés es una forma económica de entregar sus mercancías de forma segura en todo el mundo. Los pallets aseguran que los diversos artículos estén empaquetados de manera compacta en la carga, mediante una película termorretráctil o correas para fijarlos. Esto evita que las mercancías se caigan o se dañen durante el transporte, lo que permite tanto a las empresas como a las personas enviar de forma segura grandes cantidades de mercancías a todo el mundo. También ayuda a conservar los bienes frescos y ambientales por más tiempo. El uso de los servicios de la empresa para la entrega en palés alivia el estrés del transporte de mercancías, ya que dicha empresa está involucrada en una logística compleja, lo que le ahorra tiempo y dinero.\n\nLa recogida de la carga desde una determinada dirección en una fecha que elija y la entrega de la mercancía directamente a un destino final son estándar para cualquier servicio de entrega, pero la garantía de que su producto está completamente monitoreado y asegurado le da la confianza de que está utilizando los servicios de la empresa de entrega de palés adecuada.",
+
+      "broker": "Servicios de agente de aduanas",
+      "brokerTitle": "Servicios de agente de aduanas",
+      "brokerShort": "Servicios del agente de aduanas ...",
+      "brokerDesc": "Los servicios del agente de aduanas permiten pasar por el control aduanero en la frontera sin que la carga llegue a la terminal aduanera o al depósito temporal",
+
+      "courier": "Entrega por mensajería",
+      "courierShort": "En el mundo contemporáneo ...",
+      "courierDesc": "En el mundo contemporáneo, muchas personas tienen un empleo activo, por lo que intentan realizar la mayoría de las compras en tiendas online. La rapidez en la ejecución de los servicios es la principal ventaja del servicio de mensajería frente a un servicio postal. Al enviar un paquete por mensajería, el cliente puede estar seguro de que la posibilidad de abrir o dañar la mercancía está completamente excluida. Como es bien sabido, las grandes ciudades no duermen, pero a menudo es necesario organizar la entrega cuando todos los servicios de mensajería ya no funcionan. El mensajero nocturno de Wanrooytrans es una forma rápida y conveniente de entregar mercancías o fletes en un momento en que la infraestructura de la ciudad no permite realizar entregas nocturnas. Nuestra empresa tiene una base bastante grande de mensajeros nocturnos. Simplemente haga una solicitud de que necesita un servicio de mensajería por la noche, y nuestra empresa con gusto se encargará de la entrega de su carga en cualquier parte del mundo.",
+
+      "project": "Proyecto de carga",
+      "projectTitle": "Proyecto de carga",
+      "projectShort": "Un flete de proyecto, también conocido como proyecto ...",
+      "projectDesc": "Un flete de proyecto, también conocido como reenvío de proyecto o logística de proyecto, es un transporte de piezas de equipo voluminosas, pesadas, complejas o caras, incluidas cargas de gran tamaño que pueden transportarse por carretera, ferrocarril, mar o aire.\n\nEl equipo de Wan Rooy Trans, con su organización sistemática e ideas innovadoras, ofrece soluciones de proyectos para clientes en las industrias de minería, energía, construcción, petróleo y gas, incluidas transferencias de equipos totalmente personalizadas.\n\nCon nuestro personal altamente calificado y una red de asociación global confiable, puede estar seguro de que sus productos serán entregados por el medio más económico y eficiente.",
+
+      "coldTitle": "Almacén de almacenamiento en frío",
+      "cold": "Almacén de almacenamiento en frío",
+      "coldShort": "Un almacén frigorífico permite ...",
+      "coldDesc": "Un almacén frigorífico permite almacenar mercancías perecederas en cámaras a temperaturas óptimas para su carga",
+
+      "topógrafo": "Topógrafo",
+      "surveyorShort": "Un topógrafo es un inspector que realiza ...",
+      "surveyorDesc": "Un topógrafo es un inspector que realiza una inspección y evalúa la calidad del transporte, las mercancías y el flete.\n\nLa gama de servicios en esta área es bastante amplia, ya que existen diferentes opciones de transporte y la carga puede tener diferentes características.\n\nInspección de la carga, fotografiando, filmando, si es necesario.\n\nRealización de un examen por un experto independiente. Esto es necesario en caso de un evento de seguro o un accidente.\n\nControl del proceso de carga / descarga.\n\nInspección previa al envío de un lote de mercancías.\n\nFijación del flete en el modo de transporte elegido.\n\nServicios de asesoramiento durante el transporte de mercancías peligrosas de cualquier tipo.\n\nCualquier evaluación funciona con respecto al estado de la carga y el vehículo en el que se transporta.",
+
+      "button": "LEER MÁS"
+    },
+    "services": {
+      "title": "Tipos de transporte",
+      "services": "Servicios",
+      "avia": "Transporte aéreo",
+      "sea": "Envío",
+      "car": "Transporte automático",
+      "train": "Transporte ferroviario",
+      "news": "Noticias",
+      "email": "Su correo electrónico",
+      "newsletter": "Regístrese ahora para recibir las últimas noticias",
+      "btn": "Suscribirse",
+      "text": "Somos el principal proveedor de servicios de mensajería y soluciones logísticas. Somos servicios en todo el mundo. Nunca nos damos por vencidos ante los desafíos."
+    },
+    "slide": {
+      "slideTitleOne": "Bienvenido a Wanrooy Logistic",
+      "slideOne": "65 años de experiencia en el transporte mundial",
+      "slideTitleTwo": "Desde 1956",
+      "slideTwo": "El más rentable",
+      "slideTwoPart": "tarifas de transporte",
+      "slideTitleThree": "Gana con",
+      "slideTitleThreePart": "en un clic",
+      "slideThree": "Bienvenido a Wanrooy Logistic",
+      "label": "VAN WANROOY LOGISTIC",
+
+      "oneT": "Calcular",
+      "one": "Cálculo de la tasa de transporte en muy poco tiempo.",
+
+      "twoT": "Servicio 24/7",
+      "two": "Servicio al cliente 24/7.",
+
+      "threeT": "Seguro",
+      "three": "Seguro de carga a todo riesgo."
+    }
+  },
+  "navigation": {
+    "balance": "Balance",
+    "profile": "Profile",
+    "deposit": "Deposit",
+    "user": "Users manage",
+    "routes": "Routes manage",
+    "order": "Orders manage",
+    "payments": "Deposit requests",
+    "withdraw": "Withdraw requests",
+    "logout": "Logout",
+    "registration": "Register",
+    "login": "Login",
+    "dashboard": "Dashboard"
+  },
+  "admin": {
+    "language": "Language"
+  },
+  "logistic_type": {
+    "typeShort": "Recientemente, las empresas organizan el aire ...",
+
+    "type1": "Transporte aéreo Recientemente, las empresas que organizan el transporte aéreo están tratando de hacer todo lo posible por sus clientes y su comodidad. Es por eso que la mayoría de los clientes utilizan el transporte aéreo para entregar su carga. Pero vale la pena recordar que incluso el transporte aéreo tiene sus desventajas. DESVENTAJAS Lo primero que hay que tener en cuenta es el clima. Por ejemplo, además del clima, una restricción en el peso o tamaño de la carga transportada también puede ser un obstáculo. La ausencia de un aeropuerto en un asentamiento determinado también puede ser un problema. El transporte aéreo se realiza exclusivamente por aviones de carga especial. El aeropuerto debe estar equipado con un revestimiento especial en una pista que le brindará una alta durabilidad para su funcionamiento. En ausencia de dicho recubrimiento, la pista no resistirá las cargas y rápidamente se volverá inutilizable. Los aviones también requieren servicios especiales de aeronaves y, por lo tanto, no será posible realizar el transporte aéreo sin interrupción. VENTAJAS El transporte aéreo es una excelente opción para los transportes internacionales. En el caso del transporte internacional de carga, el transporte aéreo es claramente líder en el área de transporte de carga. Este es el mejor y más confiable modo de transporte y entrega de carga seguros. Hay casos en los que el transporte aéreo es la única opción posible de transporte de carga. Este tipo de transporte será muy importante en partes remotas del mundo, en ciudades de difícil acceso y en diferentes continentes. Este tipo de transporte también es muy relevante si es necesaria una entrega precisa en un momento determinado. Este tipo de transporte se utiliza todos los días. El avión puede entregar cualquier tipo de carga lo más rápido posible y en cualquier lugar del planeta. El transporte aéreo es muy relevante para el transporte y entrega de cualquier carga a áreas remotas y de difícil acceso. Este tipo de transporte ha sido reconocido como uno de los mejores del mundo. Este tipo de transporte de carga entrega la carga lo más rápido posible, lo cual es muy importante para el transporte de mercancías con un período de almacenamiento limitado.",
+    "type1title": "Transporte aéreo",
+
+    "type2Short": "El transporte marítimo permite ...",
+    "type2": "El transporte marítimo permite a los clientes organizar la entrega de todo tipo de carga: tanto cargas no grandes y pesadas como aquellas que requieren un manejo especial y cargas en contenedores. VENTAJAS Bajo costo de envío Una ventaja importante del transporte marítimo es el bajo costo de entrega, en gran parte debido a la posibilidad de compensación por cargas consolidadas. Otro factor es la alta capacidad de carga. En el caso de cargas de gran tamaño, el transporte de contenedores por mar es a menudo no solo la mejor, sino también la única opción de entrega posible. Cuando los contenedores se transportan por vía marítima, la seguridad de la carga está garantizada y prácticamente no existen riesgos de daños.",
+    "type2title": "Envío",
+
+    "type3Short": "El transporte por carretera es el más ...",
+    "type3": "El transporte por carretera es el tipo de entrega de carga más popular. Son especialmente indispensables cuando se trata de transportes en distancias cortas, por ejemplo, dentro de la ciudad. Esta forma de transporte tiene muchas ventajas: Versatilidad. Los automóviles modernos pueden transportar prácticamente cualquier tipo de carga, incluso peligrosa y de gran tamaño. Posibilidad de entrega puerta a puerta. Este es el tipo de transporte más móvil, porque hay carreteras en casi todas partes. Costo. Es un medio de transporte económico cuando se trata de cargas pequeñas. Hoy en día, muchas empresas ofrecen la entrega de carga conjunta, lo que permite una mayor optimización del costo. Prontitud. Como regla general, en el caso del transporte por carretera, es posible enviar una carga el día de la solicitud. Posibilidad de control. Gracias a una instalación de navegación, es posible recibir información sobre la ubicación de la carga en tiempo real. Fiabilidad. En contraste, por ejemplo, con los transportes marítimos, las posibles desviaciones de los términos son mínimas.",
+    "type3title": "Transporte automático",
+
+    "type4Short": "La diferencia en el costo ...",
+    "type4": "La diferencia de costo entre el transporte por ferrocarril y el transporte por carretera depende de la distancia de una ruta de transporte. VENTAJAS La diferencia de costo entre el transporte por ferrocarril y el transporte por carretera depende de la distancia de una ruta de transporte. El transporte aéreo se sitúa muy por encima, a pesar de la distancia entre el punto de origen y el destino. La siguiente ventaja es la alta capacidad de elevación de un transporte ferroviario. Gracias al ferrocarril, siempre es posible entregar más volumen de carga en un solo recorrido a diferentes distancias. Una locomotora puede sustituir a numerosos camiones de gran tamaño. El transporte ferroviario funciona sin problemas. Esto permite realizar envíos en cualquier momento. Este transporte no retrasa el envío por rotura o condiciones meteorológicas y, por tanto, en algunos casos el transporte solo es posible por ferrocarril. Las ventajas del transporte ferroviario también incluyen una mayor variedad de tanques utilizados durante el transporte de diferentes tipos de mercancías. Varios contenedores, vagones especiales, plataformas y camiones cisterna están diseñados específicamente para el transporte de diferentes categorías de carga. En la etapa inicial, la tarea de la empresa de transporte y envío es hacer la elección correcta del tanque necesario para el transporte de la carga. El transporte ferroviario es el modo preferido para el transporte de cargas sobredimensionadas y grandes volúmenes de mercancías, ya que permite transportar la carga a tiempo y a menor costo. El transporte ferroviario es la forma óptima de transportar sus mercancías si valora su flete y su dinero. Es el transporte ferroviario que permite arreglar la entrega barata y cualitativa.",
+    "type4title": "Transporte ferroviario",
+
+    "more": "LEER MÁS"
+  }
+}

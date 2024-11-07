@@ -1,28 +1,26 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const FaqSection = () => {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
 
   const faqs = [
     {
-      question: "When can I expect my delivery?",
-      answer:
-        "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+      question: t("home.achievements.titleTwo"),
+      answer: t("home.achievements.two")
     },
     {
-      question: "What is the first possible pick-up date?",
-      answer:
-        "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+      question: t("home.achievements.titleThree"),
+      answer: t("home.achievements.three")
     },
     {
-      question: "How can I pay for the service?",
-      answer:
-        "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+      question: t("home.achievements.titleFour"),
+      answer: t("home.achievements.four")
     },
     {
-      question: "How can I collect my parcel in the parcel shop?",
-      answer:
-        "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch."
+      question: t("home.achievements.titleFive"),
+      answer: t("home.achievements.five")
     }
   ];
 
@@ -31,7 +29,7 @@ const FaqSection = () => {
   };
 
   return (
-    <div className="faq-area section-padding">
+    <div id="achiv" className="faq-area section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
@@ -39,10 +37,10 @@ const FaqSection = () => {
               {/* Add your background image here */}
             </div>
           </div>
-          <div className="col-lg-5 mt-40 wow fadeInRight" data-wow-delay=".4s">
+          <div className="col-lg-5 wow fadeInRight" data-wow-delay=".4s">
             <div className="section-title">
-              <h6>Helpful FAQ's</h6>
-              <h2>Frequently Asked <b>Questions</b></h2>
+              <h6>{t('home.achievements.titleOne')}</h6>
+              <p>{t('home.achievements.one')}</p>
             </div>
             <div className="styled-faq">
               <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -70,7 +68,7 @@ const FaqSection = () => {
                       aria-labelledby={`heading${index}`}
                     >
                       <div className="panel-body">
-                        {faq.answer}
+                        <p>{faq.answer}</p>
                       </div>
                     </div>
                   </div>

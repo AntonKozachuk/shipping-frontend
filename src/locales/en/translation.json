@@ -1,0 +1,183 @@
+{
+  "home": {
+    "about": {
+      "about": "ABOUT US",
+      "title": "VAN WANROOY LOGISTIC",
+      "desc": "VAN WANROOY LOGISTIC is a provider of seaport and logistics services with an international network. For more than 65 years, our hallmark has been logistics driven by passion and pragmatism. Innovation has always been the driving force of our development. We create logistics for our customers in industry and retail, applying our experience for the development and implementation of innovative, high-technology and future-oriented solutions. We are also taking progressive steps to help our customers maximize the benefits of digitalization, automation, and globalization.",
+      "p1": "Today, the VAN WANROOY Group is present in all growing markets of the world with almost 100 representations and offices in Europe, America, Africa, and Asia. Our AUTOMOBILE and CONTAINER subdivisions are the market leader in Europe. The AVIA subdivision is one of the leading suppliers in the world.",
+      "p2": "More than 11,000 WANROOY employees take responsibility for the smooth logistics of high-quality products every day. Thanks to high motivation and devotion to duty, they achieve the best results for our customers by supporting their success in markets.",
+      "p3": "We are proud of our long-term partnership relations as well as our new flagship projects. No point of destination is too far away, no freight is too heavy, no task is too difficult. We make logistics easier. And we do more than just work: in WANROOY we always go one step further and develop innovative logistics solutions where they are needed.",
+      "p4": "VAN WANROOY LOGISTICS aspires to become climate neutral by 2030. In fact, we are the first Dutch provider of logistics services with a science-based objective to protect climate. As an employer, we support an individual approach, value the contribution of our employees and firmly look to the future. Including all associated companies.",
+      "p5": "VAN WANROOY LOGISTICS currently provides about 20,000 jobs worldwide. The WANROOY Group is headquartered in Oosterhout, the Netherlands."
+    },
+    "achievements": {
+      "titleOne": "WAN ROOY TRANS",
+      "one": "Organization of warehouse service in key European cities; Establishment of a customs warehouse on the basis of the existing warehouse complex; Development of pallet and box delivery by trucks from 0.5 to 10 tons; Freight handling before delivery to a trade outlet (stickering, over-packaging, assembling the sets, formation of promo-packages, and palletization); Customs brokerage services; And we continue to develop, extending the range of our services and increasing our influence in the logistics market in Europe.",
+
+      "titleTwo": "FULL MATERIAL RESPONSIBILITY",
+      "two": "We take full responsibility for the transport of your freight and its storage in the warehouse, additionally insuring your goods.",
+
+      "titleThree": "FULL COMPLIANCE WITH ALL NORMS AND RULES",
+      "three": "By possessing certificates, we carry out activities on the ISO 9001 and Sedex standards and, in addition, we are members of the Association of International Automobile Carriers (AsMAP).",
+
+      "titleFour": "WORK WITH ANY VOLUME AND WEIGHT OF FREIGHT",
+      "four": "Our vehicle fleet possesses all necessary resources to transport cargoes of various tonnages: from 1 kg to 22 tons.",
+
+      "titleFive": "ONLINE CONTROL AND 24/7 SECURITY",
+      "five": "Online monitoring of the freight movement over a predetermined route, t0 mode control, prevention of opening the semi-trailer."
+    },
+    "advantages": {
+      "title": "ADVANTAGES",
+
+      "oneT": "Functioning scheme",
+      "one": "Well functioning scheme of international freight transportation.",
+
+      "twoT": "Individual selection of transport route taking into account all customer's wishes.",
+      "two": "Precise calculation of the most efficient and, therefore, cheaper route, taking into account the geography of a country.",
+
+      "threeT": "Compliance with deadlines",
+      "three": "Availability of reliable partners in other countries, excellent knowledge of the law norms of any state, as well as the conditions for dealing with customs formalities.",
+
+      "fourT": "European level of professionalism",
+      "four": "European level of professionalism - all specialists are highly qualified and have extensive working experience.",
+
+      "formTitle": "Order delivery right now"
+    },
+    "comment": {
+      "comment1": "By maintaining a cooperation, the company promotes interaction between customers, research and academic institutions, industry partners, and logistics experts within the WRT business units.",
+      "name1": "Paul van Amelsfort",
+
+      "comment2": "Vacancies in WRT are as diverse as the composition of our teams and teams of our partners in different countries of the world. More than 570,000 employees in more than 220 countries and regions, whose mission is to bring people together and to improve their lives.",
+      "name2": "Ilse Vreeman",
+
+      "comment3": "The WRT plan is a significant reduction in CO2 emissions by 2030. The company became the first provider of logistics services, whose objectives were scientifically confirmed by the renowned Science Based Targets Initiative (SBTi).",
+      "name3": "Pieter de Waal Malefijt"
+    },
+    "menu": {
+      "menu": "Menu",
+      "home": "Home",
+      "services": "Services",
+      "about_us": "About Us",
+      "achievements": "Achievements",
+      "contact": "Contacts"
+    },
+    "process": {
+      "title": "How we work",
+      "sub_title": "Our process",
+
+      "one": "Choose your route type",
+      "one_title": "Registration",
+
+      "two": "Choose your route type",
+      "two_title": "Route",
+
+      "three": "Control your deliveries online",
+      "three_title": "Deliveries control",
+
+      "four": "Make profit according to the contract",
+      "four_title": "Profit"
+    },
+    "service": {
+      "title": "We provide services of various categories",
+
+      "pallet": "Delivery on Pallets",
+      "palletShort": "The delivery on pallets is a cheap ...",
+      "palletDesc": "The delivery on pallets is a cheap way to deliver your goods safely around the world. Pallets ensure that the various items are closely packed in the cargo, by means of a heat shrink film or belts to fix them. This prevents goods from falling or being damaged during transportation, which allows both businesses and individuals to safely send large quantities of goods around the world. It also helps to preserve fresh and environmental goods longer. Using the company's services for delivery on pallets relieves the stress of transporting goods, as such company is involved in complex logistics, saving your time and money.\n\nThe pick-up of cargo from a certain address on a date you choose and the delivery of goods directly to a final destination are standard for any delivery service, but the guarantee that your product is fully monitored and insured gives you confidence that you are using the services of the right pallet delivery company.",
+
+      "broker": "Customs broker services",
+      "brokerTitle": "Customs broker services",
+      "brokerShort": "The customs broker's services ...",
+      "brokerDesc": "The customs broker's services allow going through customs control at the border without freight arriving at the customs terminal or temporary storage warehouse",
+
+      "courier": "Delivery by Courier",
+      "courierShort": "In the contemporary world ...",
+      "courierDesc": "In the contemporary world, many people are in active employment, as a consequence they try to make most purchases in online shops. The speed in execution of services is the main advantage of the courier service compared to a postal service. By sending a parcel by courier, the client can be sure that the possibility of opening or damaging the goods is completely excluded. As is commonly known, large cities do not sleep, but quite often it is necessary to arrange delivery when all courier services are no longer working. The Wanrooytrans night courier is a quick and convenient way to deliver goods or freights at a time when the city's infrastructure does not allow making delivery at night. Our company has a fairly large base of night couriers. Just make a request that you need a courier at night, and our company will gladly take care of delivery of your freight anywhere in the world.",
+
+      "project": "Project Freight",
+      "projectTitle": "Project Freight",
+      "projectShort": "A project freight, also known as project ...",
+      "projectDesc": "A project freight, also known as project forwarding or project logistics, is a transportation of bulky, heavy, complex or expensive equipment parts, including oversize freights which can be transported by road, rail, sea or air.\n\nThe Wan Rooy Trans team with its systematic organization and innovative ideas offers project solutions for clients in the mining, energy, construction, oil and gas industries, including fully customized transfers of equipment.\n\nWith our highly qualified staff and reliable global partnership network, you can be sure that your goods will be delivered by the most economical and efficient mean.",
+
+      "coldTitle": "Cold Storage Warehouse",
+      "cold": "Cold Storage Warehouse",
+      "coldShort": "A cold storage warehouse allows ...",
+      "coldDesc": "A cold storage warehouse allows the storage of perishable goods in chambers at optimal temperatures for your freight",
+
+      "surveyor": "Surveyor",
+      "surveyorShort": "A surveyor is an inspector who performs ...",
+      "surveyorDesc": "A surveyor is an inspector who performs an inspection and evaluates the quality of transport, goods, and freight.\n\nThe range of services in this area is quite wide, as there are different transport options and the freight may have different characteristics.\n\nInspection of the freight, photographing, videotaping, if necessary.\n\nCarrying out examination by an independent expert. This is necessary in case of an insurance event or an accident.\n\nControl of the loading/unloading process.\n\nPre-shipment inspection of a batch of goods.\n\nFastening of the freight on the chosen mode of transport.\n\nAdvisory services during transportation of dangerous goods of any type.\n\nAny evaluation works regarding the condition of the freight and the vehicle by which it is transported.",
+
+      "button": "READ MORE"
+    },
+    "services": {
+      "title": "Types of transportation",
+      "services": "Services",
+      "avia": "Air transportation",
+      "sea": "Shipping",
+      "car": "Auto transportation",
+      "train": "Rail transportation",
+      "news": "News",
+      "email": "Your email",
+      "newsletter": "Sign Up now for latest news update",
+      "btn": "Subscribe",
+      "text": "We are the Top Courier Service Provider and Logistics Solutions. We’re services around over the worldwide. We never give up on the challenges."
+    },
+    "slide": {
+      "slideTitleOne": "Welcome to Wanrooy Logistic",
+      "slideOne": "65 years of experience in the worldwide transportation",
+      "slideTitleTwo": "Since 1956",
+      "slideTwo": "The most profitable",
+      "slideTwoPart": "transport rates",
+      "slideTitleThree": "Earn with",
+      "slideTitleThreePart": "in one click",
+      "slideThree": "Welcome to Wanrooy Logistic",
+      "label": "VAN WANROOY LOGISTIC",
+
+      "oneT": "Calculate",
+      "one": "Calculation of the transport rate within a very short time.",
+
+      "twoT": "24/7 Service",
+      "two": "24/7 customer service.",
+
+      "threeT": "Insurance",
+      "three": "Fully comprehensive cargo insurance."
+    }
+  },
+  "navigation": {
+    "balance": "Balance",
+    "profile": "Profile",
+    "deposit": "Deposit",
+    "user": "Users manage",
+    "routes": "Routes manage",
+    "order": "Orders manage",
+    "payments": "Deposit requests",
+    "withdraw": "Withdraw requests",
+    "logout": "Logout",
+    "registration": "Register",
+    "login": "Login",
+    "dashboard": "Dashboard"
+  },
+  "admin": {
+    "language": "Language"
+  },
+  "logistic_type": {
+    "typeShort": "Recently, companies organizing air...",
+
+    "type1": "Air transportation Recently, companies organizing air transportation are trying to do everything possible for their customers and their comfort. That’s why most customers use air transport to deliver their cargo. But it is worth remembering that even air transportation has its disadvantages. DISADVANTAGES The first thing you have to take into consideration is the weather. For example, in addition to the weather, a restriction on the weight or size of the transported cargo may also be an obstacle. The absence of an airport in a given settlement may also be a problem. The air transportation is carried out exclusively by special cargo aeroplanes. The airport must be equipped with a special coating on a runway that will provide high durability for their functioning. In the absence of such coating, the runway will not withstand the loads and will quickly become unusable. Aeroplanes also require special aircraft services and, therefore, it will not be possible to carry out air transportation without interruption. ADVANTAGES Air transportation is an excellent option for international transportations. In the case of international cargo transportation, air transportation is clearly a leader in the area of cargo transportation. This is the best and most reliable mode of safe cargo transportation and delivery. There are cases where air transportation is the only possible option for cargo transportation. This type of transportation will be very important in remote parts of the world, in hard-to-reach cities, and in different continents. This type of transportation is also very relevant if precise delivery at a certain time is necessary. Such type of transportation is used every day. An aeroplane can deliver any type of cargo as quickly as possible and anywhere on the planet. Air transportation is very relevant for the transportation and delivery of any cargo to remote and hard-to-reach areas. This type of transportation has been recognized as one of the best in the world. Such type of cargo transportation delivers the cargo as quickly as possible, which is very important for the carriage of goods with a limited storage period.",
+    "type1title": "Air transportation",
+
+    "type2Short": "Maritime transportation allows ...",
+    "type2": "Maritime transportation allows customers to arrange delivery of all kinds of cargo: both not large, heavy cargoes or those requiring special handling and cargoes in containers. ADVANTAGES Low cost of shipping An important advantage of transportation by sea is the low cost of delivery, largely due to the possibility of compensation for consolidated cargoes. Another factor is the high load capacity. In the case of oversize cargoes, the transportation of containers by sea is often not only the best, but also the only possible delivery option. When containers are transported by sea, the security of cargo is guaranteed and there are practically no risks of damage.",
+    "type2title": "Shipping",
+
+    "type3Short": "Road transport is the most ...",
+    "type3": "Road transport is the most popular type of cargo delivery. They are especially indispensable when it comes to transportations over short distances - for example, within the city. This form of transportation has many advantages: Versatility. Modern cars can carry virtually any type of cargo, including dangerous and oversized. Possibility of door-to-door delivery. This is the most mobile type of transportation, because there are roads almost everywhere. Cost. It is a cheap type of transportation when it comes to small loads. Today many companies offer delivery of joint cargo, which allows further optimization of cost. Promptness. As a rule, in the case of road transport it is possible to send a cargo on the day of application. Possibility of control. Thanks to a navigation facility, it is possible to receive information about the location of the cargo in real time. Reliability. In contrast, for example, to sea transportations, possible deviations from terms are minimal.",
+    "type3title": "Auto transportation",
+
+    "type4Short": "The difference in cost ...",
+    "type4": "The difference in cost between transportation by rail and transportation by road depends on the distance of a transportation route. ADVANTAGES The difference in cost between transportation by rail and transportation by road depends on the distance of a transportation route. Air transportation stands well above, despite the distance between the point of origin and the destination. The next advantage is the high lifting capacity of a rail transport. Thanks to the railway, it is always possible to deliver more volume of freight in one run at different distances. One locomotive can replace numerous large-sized trucks. The rail transport is running smoothly. This makes it possible to ship at any time. This transport does not delay the consignment because of breakage or weather conditions, and, therefore, in some cases transportation is only possible by railway. The advantages of rail transportation also include a greater choice of tanks used during transportation of different types of freights. Various containers, special wagons, platforms, and tankers are specifically designed for the transportation of different freight categories. At the initial stage, the task of the transportation and shipping company is to make the right choice of the tank necessary for transportation of the freight. Rail transport is the preferred mode for transportation of oversize freights and large volumes of goods, because it allows transporting the freight on time and at a lower cost. Rail transportation is the optimal way to transport your goods if you value your freight and money. It is railway transport that allows arranging cheap and qualitative delivery.",
+    "type4title": "Rail transportation",
+
+    "more": "READ MORE"
+  }
+}

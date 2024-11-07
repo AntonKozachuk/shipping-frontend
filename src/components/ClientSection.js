@@ -2,11 +2,11 @@ import React from 'react';
 
 const ClientSection = () => {
   const clientLogos = [
-    'assets/img/client/1.png',
-    'assets/img/client/2.png',
-    'assets/img/client/3.png',
-    'assets/img/client/4.png',
-    'assets/img/client/5.png',
+    '/shipping-frontend/assets/img/client/1.png',
+    '/shipping-frontend/assets/img/client/2.png',
+    '/shipping-frontend/assets/img/client/3.png',
+    '/shipping-frontend/assets/img/client/4.png',
+    '/shipping-frontend/assets/img/client/5.png',
     // 'assets/img/client/6.png',
     // 'assets/img/client/7.png'
   ];

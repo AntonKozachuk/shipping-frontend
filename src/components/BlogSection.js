@@ -1,31 +1,42 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import BlogItem from './BlogItem'; // Make sure the path is correct
 
 const BlogSection = () => {
+  const { t } = useTranslation();
+
   const blogPosts = [
     {
-      image: 'assets/img/blog/1.jpg',
-      author: 'Admin',
+      image: '/shipping-frontend/assets/img/blog/2.jpg',
+      author: t('home.advantages.author'),
       date: '25 Feb',
-      title: 'Five Importance logistics solutions for Delivery Services',
-      description: 'There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam.',
-      link: 'single-blog.html'
+      title: t('home.advantages.oneT'),
+      description: t('home.advantages.one'),
+      link: 'single-advantages.html'
     },
     {
-      image: 'assets/img/blog/2.jpg',
-      author: 'Admin',
+      image: '/shipping-frontend/assets/img/blog/4.jpg',
+      author: t('home.advantages.author'),
       date: '16 Jan',
-      title: 'Cargo Shipment on Ocean Freight Demands Costly',
-      description: 'There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam.',
-      link: 'single-blog.html'
+      title: t('home.advantages.twoT'),
+      description: t('home.advantages.two'),
+      link: 'single-advantages.html'
     },
     {
-      image: 'assets/img/blog/3.jpg',
-      author: 'Admin',
+      image: '/shipping-frontend/assets/img/blog/1.jpg',
+      author: t('home.advantages.author'),
       date: '01 Jan',
-      title: 'We believe in building long lasting our business relationships',
-      description: 'There are some reason Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, facilis perferendis ipsam.',
-      link: 'single-blog.html'
+      title: t('home.advantages.threeT'),
+      description: t('home.advantages.three'),
+      link: 'single-advantages.html'
+    },
+    {
+      image: '/shipping-frontend/assets/img/blog/3.jpg',
+      author: t('home.advantages.author'),
+      date: '01 Jan',
+      title: t('home.advantages.fourT'),
+      description: t('home.advantages.four'),
+      link: 'single-advantages.html'
     }
   ];
 
@@ -35,13 +46,8 @@ const BlogSection = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12 col-12">
             <div className="section-title">
-              <h6>Blog</h6>
-              <h2>What <b>happen</b> inside our <b>company</b></h2>
+              <h2>{t('home.advantages.title')}</h2>
             </div>
-          </div>
-
-          <div className="col-lg-6 text-right">
-            {/* Optional additional content */}
           </div>
         </div>
         <div className="row">

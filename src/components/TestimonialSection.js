@@ -1,32 +1,35 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Slider from 'react-slick';
 import TestimonialItem from './TestimonialItem';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../assets/css/style.css';
 
-const testimonials = [
-  {
-    avatar: 'assets/img/testimonial/2.jpg',
-    content: 'There are some reason lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, officia eligendi quos best choice similique autem laborum repellendus aliquam, support all molestiae tempora quod esse sed. amazing service.',
-    name: 'Mihir Kanti Ghosh',
-    position: 'CEO & Founder-Linking Park'
-  },
-  {
-    avatar: 'assets/img/testimonial/4.jpg',
-    content: 'There are some reason lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, officia eligendi quos best choice similique autem laborum repellendus aliquam, support all molestiae tempora quod esse sed. amazing service.',
-    name: 'Mihir Kanti Ghosh',
-    position: 'CEO & Founder-Linking Park'
-  },
-  {
-    avatar: 'assets/img/testimonial/3.jpg',
-    content: 'There are some reason lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, officia eligendi quos best choice similique autem laborum repellendus aliquam, support all molestiae tempora quod esse sed. amazing service.',
-    name: 'Mihir Kanti Ghosh',
-    position: 'CEO & Founder-Linking Park'
-  }
-];
-
 const TestimonialSection = () => {
+  const { t } = useTranslation();
+
+  const testimonials = [
+    {
+      avatar: '/shipping-frontend/assets/img/testimonial/2.jpg',
+      content: t('home.comment.comment1'),
+      name: t('home.comment.name1'),
+      position: 'CEO & Founder-Linking Park',
+    },
+    {
+      avatar: '/shipping-frontend/assets/img/testimonial/4.jpg',
+      content: t('home.comment.comment2'),
+      name: t('home.comment.name2'),
+      position: 'CEO & Founder-Linking Park',
+    },
+    {
+      avatar: '/shipping-frontend/assets/img/testimonial/3.jpg',
+      content: t('home.comment.comment3'),
+      name: t('home.comment.name3'),
+      position: 'CEO & Founder-Linking Park',
+    },
+  ];
+
   // Slick slider settings
   const settings = {
     dots: true, // Enable dots for navigation
@@ -36,7 +39,7 @@ const TestimonialSection = () => {
     slidesToScroll: 1, // Number of slides to scroll at a time
     autoplay: true, // Auto-scroll the slides
     autoplaySpeed: 5000, // Time between auto-scrolls (in milliseconds)
-    arrows: false // Hide the next/prev arrows
+    arrows: false, // Hide the next/prev arrows
   };
 
   return (

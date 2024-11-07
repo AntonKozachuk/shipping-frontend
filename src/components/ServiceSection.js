@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ServiceItem from './ServiceItem';
+import Modal from './Modal';
 
 const ServicesSection = () => {
+  const { t } = useTranslation();
+  const [modalContent, setModalContent] = useState({
+    title: '',
+    description: '',
+  });
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleReadMoreClick = (title, description) => {
+    setModalContent({ title, description });
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div id="service-1" className="services-area bg-cover section-padding">
       <div className="overlay-2"></div>
@@ -9,8 +27,7 @@ const ServicesSection = () => {
         <div className="row">
           <div className="offset-lg-2 col-lg-8 text-center">
             <div className="section-title">
-              <h6>Services</h6>
-              <h2>We Provide Various Category <br /><b>Delivery Services</b></h2>
+              <h2>{t('home.service.title')}</h2>
             </div>
           </div>
         </div>
@@ -18,54 +35,97 @@ const ServicesSection = () => {
           {/* Service Items */}
           <ServiceItem
             iconClass="flaticon-delivery-man"
-            title="Standard Courier"
-            description="This services involve transferring the parcels to the closest depot to the delivery location."
-            link="single-service.html"
-            serviceClass="service-1" // Dynamic class for the service
+            title={t('home.service.courier')}
+            description={t('home.service.courierShort')}
+            link="#"
+            serviceClass="service-1"
             delay=".2s"
+            onReadMoreClick={() =>
+              handleReadMoreClick(
+                t('home.service.courier'),
+                t('home.service.courierDesc')
+              )
+            }
           />
           <ServiceItem
             iconClass="flaticon-truck"
-            title="Express Courier"
-            description="This is a service provided to those who need urgent delivery to be sent and received on the same day."
-            link="single-service.html"
-            serviceClass="service-2" // Dynamic class for the service
+            title={t('home.service.project')}
+            description={t('home.service.projectShort')}
+            link="#"
+            serviceClass="service-2"
             delay=".4s"
+            onReadMoreClick={() =>
+              handleReadMoreClick(
+                t('home.service.project'),
+                t('home.service.projectDesc')
+              )
+            }
           />
           <ServiceItem
             iconClass="flaticon-pallet"
-            title="Pallet Courier"
-            description="This is a service that safely strict delivery and promptly delivers goods on pallets."
-            link="single-service.html"
-            serviceClass="service-3" // Dynamic class for the service
+            title={t('home.service.pallet')}
+            description={t('home.service.palletShort')}
+            link="#"
+            serviceClass="service-3"
             delay=".6s"
+            onReadMoreClick={() =>
+              handleReadMoreClick(
+                t('home.service.pallet'),
+                t('home.service.palletDesc')
+              )
+            }
           />
           <ServiceItem
             iconClass="flaticon-fast-delivery"
-            title="Over Night Courier"
-            description="This courier will usually transport the goods during the night or early of the morning."
-            link="single-service.html"
-            serviceClass="service-4" // Dynamic class for the service
+            title={t('home.service.cold')}
+            description={t('home.service.coldShort')}
+            link="#"
+            serviceClass="service-4"
             delay=".2s"
+            onReadMoreClick={() =>
+              handleReadMoreClick(
+                t('home.service.cold'),
+                t('home.service.coldDesc')
+              )
+            }
           />
           <ServiceItem
             iconClass="flaticon-air-freight"
-            title="International Courier"
-            description="This is a transport service of goods or documents from one country to another country."
-            link="single-service.html"
-            serviceClass="service-5" // Dynamic class for the service
+            title={t('home.service.broker')}
+            description={t('home.service.brokerShort')}
+            link="#"
+            serviceClass="service-5"
             delay=".4s"
+            onReadMoreClick={() =>
+              handleReadMoreClick(
+                t('home.service.brokerTitle'),
+                t('home.service.brokerDesc')
+              )
+            }
           />
           <ServiceItem
             iconClass="flaticon-wholesale"
-            title="Warehousing"
-            description="This type of service will involve managed storage solutions to give companies greater control."
-            link="single-service.html"
-            serviceClass="service-6" // Dynamic class for the service
+            title={t('home.service.surveyor')}
+            description={t('home.service.surveyorShort')}
+            link="#"
+            serviceClass="service-6"
             delay=".6s"
+            onReadMoreClick={() =>
+              handleReadMoreClick(
+                t('home.service.surveyor'),
+                t('home.service.surveyorDesc')
+              )
+            }
           />
         </div>
       </div>
+      {isModalOpen && (
+        <Modal
+          title={modalContent.title}
+          description={modalContent.description}
+          onClose={handleCloseModal}
+        />
+      )}
     </div>
   );
 };

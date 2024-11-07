@@ -7,15 +7,16 @@ const TestimonialItem = ({ avatar, content, name, position }) => {
         <img src={avatar} alt={name} />
       </div>
       <div className="testimonial-content">
-        {/* Preserving font icon classes */}
         <div className="testimonial-icon-before">
-          <i className="las la-quote-left"></i> {/* Left quote icon */}
+          <i className="las la-quote-left"></i>
         </div>
         <p>{content}</p>
         <div className="testimonial-icon-after">
-          <i className="las la-quote-right"></i> {/* Right quote icon */}
+          <i className="las la-quote-right"></i>
         </div>
-        <h4>{name} <span>{position}</span></h4>
+        <h4>
+          {name} <span>{position}</span>
+        </h4>
       </div>
     </div>
   );
