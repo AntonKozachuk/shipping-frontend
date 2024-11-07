@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shipping-frontend/static/css/main.a52ae790.css",
-    "main.js": "/shipping-frontend/static/js/main.395521b4.js",
+    "main.js": "/shipping-frontend/static/js/main.f48d4a11.js",
     "static/js/453.e92088ea.chunk.js": "/shipping-frontend/static/js/453.e92088ea.chunk.js",
     "static/media/achievement.jpg": "/shipping-frontend/static/media/achievement.4e5d05e66949d1376249.jpg",
     "static/media/slide-6.jpg": "/shipping-frontend/static/media/slide-6.4e5d05e66949d1376249.jpg",
@@ -23,6 +23,7 @@
     "static/media/04.jpg": "/shipping-frontend/static/media/04.f63da9bb2c155bfa6b02.jpg",
     "static/media/consult-bg.jpg": "/shipping-frontend/static/media/consult-bg.a786bb0ad3759a99520a.jpg",
     "static/media/8.jpg": "/shipping-frontend/static/media/8.681aef55fc2a479b423c.jpg",
+    "static/media/es.svg": "/shipping-frontend/static/media/es.941a717e68e42f2335956b324248cc43.svg",
     "static/media/06.jpg": "/shipping-frontend/static/media/06.5b5e6cc4d6c13da4b914.jpg",
     "static/media/6.jpg": "/shipping-frontend/static/media/6.d38eb69f78cb9243b41f.jpg",
     "static/media/03.jpg": "/shipping-frontend/static/media/03.0dca37eef85190429791.jpg",
@@ -48,12 +49,16 @@
     "static/media/2.html": "/shipping-frontend/static/media/2.2b41f2601298161bee51.html",
     "static/media/3.html": "/shipping-frontend/static/media/3.2b41f2601298161bee51.html",
     "static/media/helpline.html": "/shipping-frontend/static/media/helpline.2b41f2601298161bee51.html",
+    "static/media/gb.svg": "/shipping-frontend/static/media/gb.527fac5a122857cad6183fa64fbfc309.svg",
+    "static/media/nl.svg": "/shipping-frontend/static/media/nl.7d38e03bf4885e220cdfaebe1de20f13.svg",
+    "static/media/ru.svg": "/shipping-frontend/static/media/ru.db2b8b31ecb6b5877fad59de3e83ab1b.svg",
+    "static/media/de.svg": "/shipping-frontend/static/media/de.057701dc2a0f76a9c685eff438cf17d8.svg",
     "main.a52ae790.css.map": "/shipping-frontend/static/css/main.a52ae790.css.map",
-    "main.395521b4.js.map": "/shipping-frontend/static/js/main.395521b4.js.map",
+    "main.f48d4a11.js.map": "/shipping-frontend/static/js/main.f48d4a11.js.map",
     "453.e92088ea.chunk.js.map": "/shipping-frontend/static/js/453.e92088ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a52ae790.css",
-    "static/js/main.395521b4.js"
+    "static/js/main.f48d4a11.js"
   ]
 }
