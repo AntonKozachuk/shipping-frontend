@@ -141,6 +141,9 @@
 
       "threeT": "Verzekering",
       "three": "Volledig uitgebreide vrachtverzekering."
+    },
+    "form": {
+      "quotation-dtl": "Requests are accepted 24/7"
     }
   },
   "navigation": {

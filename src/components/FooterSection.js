@@ -16,7 +16,7 @@ const FooterSection = () => {
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div className="logo">
                 <img
-                  src="/shipping-frontend/assets/img/logo-white.png"
+                  src="/shipping-frontend/assets/img/logo.png"
                   alt="expoint-logo"
                 />
               </div>

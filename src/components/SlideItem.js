@@ -20,11 +20,7 @@ const SlideItem = ({
               <div className="section-title">
                 <h6>{title}</h6>
                 <h1>{subtitle}</h1>
-                <p>{description}</p>
               </div>
-              <a href={buttonLink} className="main-btn">
-                {buttonText}
-              </a>
             </div>
           </div>
         </div>

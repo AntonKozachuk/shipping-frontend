@@ -20,16 +20,20 @@ const Footer = () => {
   return (
     <footer className="footer-bottom">
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center align-items-center">
           <div className="col-lg-6">
-            <p>&copy; 2024 WanrooyTrans. All rights reserved.</p>
+            <p className="copyright-line">
+              &copy; 2024 WanrooyTrans. All rights reserved.
+            </p>
           </div>
           <div className="col-lg-6 text-right">
-            <p>Privacy Policy | Terms & Conditions</p>
+            <p className="privacy">Privacy Policy | Terms & Conditions</p>
           </div>
         </div>
       </div>
-      <a href="#top" className="go-top"><i className="las la-angle-up"></i></a>
+      <a href="#top" className="go-top">
+        <i className="las la-angle-up"></i>
+      </a>
     </footer>
   );
 };

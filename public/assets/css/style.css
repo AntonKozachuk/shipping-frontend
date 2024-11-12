@@ -1348,11 +1348,6 @@ textarea:focus::-webkit-input-placeholder {
 
 .single-slide-item h1 {
 	color: #fff;
-	font-size: 75px;
-	font-weight: 500;
-	line-height: 90px;
-	letter-spacing: 1px;
-	margin: 30px 0;
 }
 
 .homepage-slides .section-title h6 {
@@ -1475,6 +1470,7 @@ textarea:focus::-webkit-input-placeholder {
 	padding: 65px 30px 50px;
 	height: 100%;
 	border-radius: 5px 0 0 5px;
+	text-align: center;
 }
 
 .feat-content {
@@ -2261,9 +2257,9 @@ textarea:focus::-webkit-input-placeholder {
 	color: #707579;
 }
 
-p.privacy {
+/* p.privacy {
 	text-align: right;
-}
+} */
 
 /*==============================HOME # 02 =================================*/
 
@@ -2766,7 +2762,7 @@ p.privacy {
 }
 
 .quotation-form {
-	padding: 80px 115px;
+	/* padding: 80px 115px; */
 	background-color: #FFF;
 }
 
@@ -2825,10 +2821,11 @@ p.privacy {
 
 .quotation-dtl p {
 	color: #FFF;
-	font-size: 20px;
+	display: flex;
+	/* font-size: 20px;
 	padding: 15px 150px;
 	margin: 0;
-	text-align: center;
+	text-align: center; */
 }
 
 .quotation-dtl p i {

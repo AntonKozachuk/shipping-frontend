@@ -3,6 +3,10 @@
 =======================================================================
 */
 
+.quotation-form {
+	padding: 80px 115px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {}
 
 /* Tablet Layout: 768px. 
@@ -52,7 +56,7 @@
 		display: none;
 	}
 
-	.main-menu .navbar-nav .nav-link {
+	.sticky-area .main-menu .navbar-nav .nav-link {
 		padding: 15px;
 	}
 
@@ -100,7 +104,7 @@
 		z-index: 99999;
 	}
 
-	.navbar-toggler-icon {
+	.navbar-toggler .navbar-toggler-icon {
 		display: block;
 		width: 30px;
 		height: 2px;
@@ -130,7 +134,7 @@
 
 	.main-menu .navbar .navbar-collapse {
 		position: absolute;
-		top: 0;
+		top: -25px;
 		left: 0;
 		width: 100%;
 		background-color: #fff;
@@ -326,18 +330,24 @@
 
 @media only screen and (max-width: 767px) {
 
-	.header-top .site-info {
-		text-align: center;
-	}
-
 	.header-top .contact-info {
 		font-size: 13px;
 		text-align: center;
 		margin-bottom: 10px;
 	}
 
-	.header-top .social-area {
-		margin-top: 10px;
+	.header-top .col-md-12:nth-of-type(1) {
+		order: 1;
+	}
+
+	.header-top .col-md-12:nth-of-type(2) {
+		order: 3;
+		width: 75%;
+	}
+
+	.header-top .col-md-12:nth-of-type(3) {
+		order: 2;
+		width: 25%;
 	}
 
 	.header-area .sub-title {
@@ -376,7 +386,7 @@
 		display: none;
 	}
 
-	.main-menu .navbar-nav .nav-link {
+	.sticky-area .main-menu .navbar-nav .nav-link {
 		padding: 15px;
 	}
 
@@ -407,7 +417,7 @@
 		background-color: transparent;
 		border: none;
 		position: absolute;
-		top: -60px;
+		top: -75px;
 		right: 0;
 		z-index: 99999;
 	}
@@ -424,7 +434,7 @@
 		z-index: 99999;
 	}
 
-	.navbar-toggler-icon {
+	.navbar-toggler .navbar-toggler-icon {
 		display: block;
 		width: 30px;
 		height: 2px;
@@ -454,7 +464,7 @@
 
 	.main-menu .navbar .navbar-collapse {
 		position: absolute;
-		top: 0;
+		top: -25px;
 		left: 0;
 		width: 100%;
 		background-color: #fff;
@@ -558,6 +568,9 @@
 
 	[class*="col-12"]:not(:last-child) .single-feature-item {
 		margin-bottom: 80px;
+	}
+
+	.col-12 .single-feature-item {
 		text-align: center;
 	}
 
@@ -882,7 +895,7 @@
 		display: none;
 	}
 
-	.main-menu .navbar-nav .nav-link {
+	.sticky-area .main-menu .navbar-nav .nav-link {
 		padding: 15px;
 	}
 
@@ -903,7 +916,7 @@
 		z-index: 99999;
 	}
 
-	.navbar-toggler-icon {
+	.navbar-toggler .navbar-toggler-icon {
 		display: block;
 		width: 30px;
 		height: 2px;
@@ -933,7 +946,7 @@
 
 	.main-menu .navbar .navbar-collapse {
 		position: absolute;
-		top: 0;
+		top: -25px;
 		left: 0;
 		width: 100%;
 		background-color: #fff;

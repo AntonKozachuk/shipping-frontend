@@ -141,6 +141,9 @@
 
       "threeT": "Seguro",
       "three": "Seguro de carga a todo riesgo."
+    },
+    "form": {
+      "quotation-dtl": "Requests are accepted 24/7"
     }
   },
   "navigation": {

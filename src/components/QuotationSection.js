@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const QuotationSection = () => {
   const [formData, setFormData] = useState({
@@ -19,6 +20,8 @@ const QuotationSection = () => {
     }));
   };
 
+  const { t } = useTranslation();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic here (e.g., API call)
@@ -33,7 +36,9 @@ const QuotationSection = () => {
           <div className="col-lg-8 offset-lg-2 text-center">
             <div className="section-title">
               <h6>Quotation</h6>
-              <h2>Get Free <b>Quotation</b> for <br /> Your <b>Choice</b></h2>
+              <h2>
+                Get Free <b>Quotation</b> for <br /> Your <b>Choice</b>
+              </h2>
             </div>
           </div>
         </div>
@@ -163,7 +168,9 @@ const QuotationSection = () => {
             </div>
           </form>
           <div className="quotation-dtl text-white">
-            <p><i className="las la-mobile"></i> We are available at Mon-Fri, call us + 212-4000-300 during regular business hours</p>
+            <p>
+              <i className="las la-mobile"></i> {t('home.form.quotation-dtl')}
+            </p>
           </div>
         </div>
       </div>

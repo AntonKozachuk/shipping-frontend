@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 const HeaderArea = () => {
   const { t } = useTranslation();
   const [isSticky, setIsSticky] = useState(false);
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +21,10 @@ const HeaderArea = () => {
     };
   }, []);
 
+  const handleNavToggle = () => {
+    setIsNavExpanded((prev) => !prev);
+  };
+
   return (
     <header className={`header-area ${isSticky ? 'sticky' : ''}`}>
       <div id="sticky-wrapper" className="sticky-area">
@@ -30,7 +35,10 @@ const HeaderArea = () => {
               <div className="col-lg-2">
                 <div className="logo">
                   <a className="navbar-brand" href="/">
-                    <img src="/shipping-frontend/assets/img/logo.png" alt="logo" />
+                    <img
+                      src="/shipping-frontend/assets/img/logo.png"
+                      alt="logo"
+                    />
                   </a>
                 </div>
               </div>
@@ -45,12 +53,11 @@ const HeaderArea = () => {
                 <div className="main-menu">
                   <nav className="navbar navbar-expand-lg">
                     <button
-                      className="navbar-toggler"
+                      className={`navbar-toggler ${isNavExpanded ? 'active' : ''}`}
                       type="button"
-                      data-toggle="collapse"
-                      data-target="#navbarSupportedContent"
+                      onClick={handleNavToggle}
                       aria-controls="navbarSupportedContent"
-                      aria-expanded="false"
+                      aria-expanded={isNavExpanded}
                       aria-label="Toggle navigation"
                     >
                       <span className="navbar-toggler-icon"></span>
@@ -59,7 +66,7 @@ const HeaderArea = () => {
                     </button>
 
                     <div
-                      className="collapse navbar-collapse justify-content-center"
+                      className={`collapse navbar-collapse justify-content-center ${isNavExpanded ? 'show' : ''}`}
                       id="navbarSupportedContent"
                     >
                       <ul className="navbar-nav ml-auto">
